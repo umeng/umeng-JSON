@@ -12,10 +12,10 @@
 eg:<br>
 
 ```
-stirng json = "{\"abc\":\"abc is abc\"}";
-Dictionary<string,object> dic = JSON.JsonDecode(json)
+var json = "{\"abc\":\"abc is abc\"}";
+var dic = JSON.JsonDecode(json)
 
-string jsonStr = JSON.JsonEncode(dic);
+var jsonStr = JSON.JsonEncode(dic);
 
 ```
 
